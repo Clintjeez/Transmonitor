@@ -1,12 +1,17 @@
-import "./App.css";
-
 import Header from "./Components/Header/Header";
+import SideNav from "./Components/SideNav/SideNav";
+import Main from "./Pages/Main";
+
+import "./App.css";
 
 function App() {
   return (
     <div className="app">
       <Header />
-      <p>Hello</p>
+      <div className="app__container">
+        <SideNav />
+        <Main />
+      </div>
     </div>
   );
 }

@@ -1,0 +1,48 @@
+.sidenav {
+  width: 300px;
+  color: #8a9aa5;
+}
+
+.sidenav__cta {
+  margin: 40px 30px;
+}
+
+.sidenav__cta__btn {
+  padding: 8px 10px;
+  background-color: #27ae60;
+  color: #ffff;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.sidenav__navs {
+  margin-top: 20px;
+  /* margin-left: 60px; */
+}
+.sidenav__navs__title {
+  margin-bottom: 20px;
+  padding-left: 60px;
+}
+.sidenav__navs__items {
+  padding: 10px 0 10px 60px;
+  margin: 0;
+  list-style: none;
+  font-size: 13px;
+}
+.sidenav__navs__items:hover {
+  background-color: #e8f1fd;
+  border-left: 4px solid #1975f0;
+  transition: 300ms ease-in-out;
+}
+.sidenav__navs__items span {
+  margin: 0 5px;
+}
+.sidenav__navs__items img {
+  margin-right: 20px;
+}
+
+/* Mobile Responsivity */
+@media (max-width: 800px) {
+}

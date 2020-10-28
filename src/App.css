@@ -12,3 +12,7 @@
   box-sizing: border-box;
   font-family: "Segoe UI Regular" !important;
 }
+
+.app__container {
+  display: flex;
+}
