@@ -45,4 +45,7 @@
 
 /* Mobile Responsivity */
 @media (max-width: 800px) {
+  .sidenav {
+    display: none;
+  }
 }

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import SearchIcon from "@material-ui/icons/Search";
 import NotificationsNoneIcon from "@material-ui/icons/NotificationsNone";
 import Badge from "@material-ui/core/Badge";
@@ -7,14 +7,22 @@ import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import MenuIcon from "@material-ui/icons/Menu";
+import Drawer from "@material-ui/core/Drawer";
+import SideDrawer from "../SideDrawer/SideDrawer";
 
 import UserImage from "../../Assets/img/profile_img.png";
 
 import "./Header.css";
 
 const ITEM_HEIGHT = 58;
-
 function Header() {
+  //Responsive Sidedrawer functions and properties
+  const [drawerOpen, setdrawerOpen] = useState(false);
+  const handleDrawer = () => {
+    setdrawerOpen(true);
+  };
+
+  // Responsive Menu functions and properties
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
 
@@ -32,12 +40,20 @@ function Header() {
       <IconButton
         color="inherit"
         aria-label="open drawer"
-        // onClick={handleDrawerOpen}
+        onClick={handleDrawer}
         edge="start"
-        // className={clsx(classes.menuButton, open && classes.hide)}
       >
         <MenuIcon />
       </IconButton>
+      <>
+        <Drawer
+          anchor="left"
+          open={drawerOpen}
+          onClose={() => setdrawerOpen(false)}
+        >
+          <SideDrawer onClose={() => setdrawerOpen(false)} />
+        </Drawer>
+      </>
       {/* Side nav Drawer */}
       <div className="header__brand">
         <p>TransMonitor</p>
