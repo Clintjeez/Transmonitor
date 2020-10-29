@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import LargeChart from "../charts/LargeChart";
 
 import NavigateBeforeIcon from "@material-ui/icons/NavigateBefore";
@@ -7,24 +7,24 @@ import NavigateNextIcon from "@material-ui/icons/NavigateNext";
 import "./DataGraph.css";
 
 function Datagraph() {
+  let currentDate = new Date();
+  const [date, setDate] = useState(currentDate.toDateString());
   return (
     <div className="datagraph">
       <div className="datagraph__container">
         <div className="datagraph__box col__1">
           <div className="datagraph__box__top">
-            <p>Today: 5, Aug 2018</p>
+            <p className="date">Today: {date}</p>
             <div className="datagraph__date">
               <select className="datagraph__date__select">
-                <option>Jan1 - Jun1</option>
-                <option>Jan1 - Jun1</option>
                 <option>Jan1 - Jun1</option>
               </select>
               <div className="datagraph__date__btn__wrapper">
                 <button className="datagraph__date__btn btn__1">
-                  <NavigateBeforeIcon />
+                  <NavigateBeforeIcon className="dg__btn__icon" />
                 </button>
                 <button className="datagraph__date__btn btn__2">
-                  <NavigateNextIcon />
+                  <NavigateNextIcon className="dg__btn__icon" />
                 </button>
               </div>
             </div>

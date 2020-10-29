@@ -33,7 +33,7 @@
   justify-content: space-between;
 }
 
-.datagraph__box__top p {
+.date {
   color: #4f4f4f;
   font-size: 18px;
   line-height: 21px;
@@ -116,5 +116,21 @@
   }
   .col__1 {
     grid-row: 1;
+  }
+
+  .date {
+    font-size: 12px;
+  }
+
+  .datagraph__date__select {
+    width: 80px;
+    height: 21px;
+  }
+  .datagraph__date__btn {
+    height: 21px;
+    padding: 2px;
+  }
+  .dg__btn__icon {
+    font-size: 15px !important;
   }
 }
