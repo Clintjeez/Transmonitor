@@ -63,3 +63,20 @@
   background: #e5e5e5;
   color: #414042;
 }
+
+/* Moblie Responsive */
+@media (max-width: 800px) {
+  .table__controls {
+    flex-direction: column;
+  }
+  .table__sort {
+    margin: 10px 0;
+  }
+  .table__search {
+    margin: 10px 0;
+    width: 250px !important;
+  }
+  .table__group__select {
+    margin-top: 20px;
+  }
+}

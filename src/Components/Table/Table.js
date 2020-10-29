@@ -37,7 +37,7 @@ function Table() {
   return (
     <div className="table">
       <TableControls handleSelect={handleSelect} value={status} />
-      <section className="table__data__Wrapper">
+      <section className="table__data__wrapper">
         <table className="table__data">
           <thead>
             <tr>
