@@ -1,0 +1,23 @@
+.infocard {
+  background: #ffffff;
+  border: 1px solid #eef8fd;
+  box-sizing: border-box;
+  border-radius: 2px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.infocard__container {
+  color: #8a9aa5;
+  padding: 2px;
+}
+
+.infocard__title {
+  font-size: 12px;
+}
+
+.infocard__data {
+  color: #000;
+  font-weight: 400;
+}

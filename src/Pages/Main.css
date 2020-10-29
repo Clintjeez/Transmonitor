@@ -1,0 +1,16 @@
+.main {
+  background-color: #f7f8fa;
+  color: #8a9aa5 !important;
+  flex: 1;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 40px 50px;
+}
+
+.main__stats {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
