@@ -2,6 +2,7 @@ import React from "react";
 
 // Components
 import InfoCard from "../Components/InfoCard/InfoCard";
+import DataGraph from "../Components/DataGraph/DataGraph";
 
 import "./Main.css";
 
@@ -14,8 +15,8 @@ function Main() {
         <InfoCard title="Daily Transaction Volume" data="452,000" />
         <InfoCard title="Daily Transaction Value" data="₦4,000,000" />
       </div>
-      {/* <DataGraph />
-  <Table /> */}
+      <DataGraph />
+      {/* <Table /> */}
     </div>
   );
 }

@@ -1,0 +1,120 @@
+.datagraph {
+  margin-top: 40px;
+}
+
+.datagraph__container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-gap: 10px;
+  border: 1px solid #eef8fd;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.datagraph__box {
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 10px;
+}
+.col__1 {
+  grid-row: 1/4;
+  height: 290px;
+}
+.col__2 {
+  height: 140px;
+}
+.col__3 {
+  height: 140px;
+}
+
+.datagraph__box__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.datagraph__box__top p {
+  color: #4f4f4f;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 600;
+}
+
+.datagraph__date {
+  display: flex;
+  justify-content: space-between;
+}
+
+.datagraph__date__select {
+  width: 138px;
+  height: 31px;
+  border: 1px solid #dde0e3;
+  border-radius: 4.25px;
+  color: #8a9aa5;
+}
+.datagraph__date__btn__wrapper {
+  padding: 2px 0;
+}
+.datagraph__date__btn {
+  width: 29.36px;
+  height: 22.97px;
+  background: linear-gradient(0deg, #f2f4f7 0%, #ffffff 100%);
+  color: #8a9aa5 !important;
+  border: 1px solid #ced0da;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-left: 20px;
+}
+
+.datagraph__box__title {
+  color: #4f4f4f;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.datagraph__bar1 {
+  width: 100%;
+  height: 4px;
+  background-color: #fdc203;
+  border-radius: 4px;
+}
+
+.datagraph__bar2 {
+  width: 70%;
+  height: 4px;
+  background: #27ae60;
+  border-radius: 4px;
+}
+
+.bar__label {
+  font-size: 14px;
+  line-height: 16px;
+  color: #262626;
+  margin: 10px 0;
+}
+
+.txt__yellow {
+  color: #fdc203;
+}
+.txt__green {
+  color: #27ae60;
+}
+.txt__blue {
+  color: #1875f0;
+}
+
+.chart__wrapper {
+  height: 230px;
+}
+
+/* Mobile Responsivity */
+@media (max-width: 800px) {
+  .datagraph__container {
+    grid-template-columns: 100%;
+  }
+  .col__1 {
+    grid-row: 1;
+  }
+}
