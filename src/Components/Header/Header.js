@@ -103,12 +103,8 @@ function Header() {
                 <a> FAQ</a>
               </li>
               <li className="menu__items">
-                <Badge
-                  // className="header__nav__item"
-                  badgeContent={8}
-                  color="primary"
-                >
-                  <NotificationsNoneIcon />
+                <Badge badgeContent={8} color="primary">
+                  <NotificationsNoneIcon className="menu__noti" />
                 </Badge>
               </li>
               <li className="menu__items user__item">

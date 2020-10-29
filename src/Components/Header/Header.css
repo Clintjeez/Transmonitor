@@ -108,6 +108,15 @@
   .menu__btn {
     display: block !important;
   }
+  .menu__items {
+    margin: 15px 0;
+  }
+  .MuiBadge-colorPrimary {
+    background-color: #1860ec !important;
+  }
+  .menu__noti {
+    /* background-color: #1860ec !important; */
+  }
   .user__item {
     display: flex;
   }
