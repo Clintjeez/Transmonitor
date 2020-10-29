@@ -2,11 +2,42 @@
   background-color: #fff;
   height: 200px;
   overflow-x: scroll;
+  width: 100%;
+}
+
+.table__data__items {
+  padding: 20px;
+  border-bottom: 1px solid #cccfd4;
+}
+.types {
+  color: #414042;
+}
+.table__avatar {
+  display: inline !important;
+  padding: 10px 8px !important;
+  font-size: 13px !important;
+  margin-right: 30px;
+  background: #7f8fa4 !important;
 }
 
 .status__wrapper {
   display: flex;
   justify-content: space-between;
+}
+
+.table__footer {
+  text-align: right;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.table__footer p {
+  padding: 10px 0;
+}
+
+.table__paginate {
+  margin-left: 300px !important;
 }
 
 .pagination {
@@ -16,12 +47,12 @@
   outline: none;
 }
 .pagination > .active > a {
-  background-color: #47ccde;
-  border-color: #47ccde;
+  background-color: #1875f0;
+  border-color: #1875f0;
   color: #fff;
 }
 .pagination > li > a {
-  border: 1px solid #47ccde;
+  border: 1px solid #ced0da;
   padding: 5px 10px;
   outline: none;
   cursor: pointer;
@@ -32,13 +63,13 @@
 .pagination > .active > span:hover,
 .pagination > .active > a:focus,
 .pagination > .active > span:focus {
-  background-color: #47ccde;
-  border-color: #47ccde;
+  background-color: #1875f0;
+  border-color: #1875f0;
   outline: none;
 }
 .pagination > li > a,
 .pagination > li > span {
-  color: #47ccde;
+  color: #000;
 }
 .pagination > li:first-child > a,
 .pagination > li:first-child > span,
