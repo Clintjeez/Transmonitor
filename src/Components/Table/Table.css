@@ -41,11 +41,9 @@ th {
   }
   .table__data__wrapper {
     width: 100%;
-
-    border: solid 1px red;
+    overflow-x: scroll;
   }
   .table__data {
     width: 100%;
-    overflow-x: scroll;
   }
 }
