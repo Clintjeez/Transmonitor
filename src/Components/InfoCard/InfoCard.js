@@ -1,5 +1,5 @@
 import React from "react";
-// import MiniChart from "../charts/MiniChart";
+import MiniChart from "../charts/MiniChart";
 import "./InfoCard.css";
 
 function Infocard({ title, data }) {
@@ -9,7 +9,9 @@ function Infocard({ title, data }) {
         <p className="infocard__title">{title}</p>
         <h3 className="infocard__data">{data}</h3>
       </div>
-      <div className="infocard__graph">{/* <MiniChart /> */}</div>
+      <div className="infocard__graph">
+        <MiniChart />
+      </div>
     </div>
   );
 }
