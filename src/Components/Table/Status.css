@@ -1,0 +1,37 @@
+.status {
+  width: 120px;
+  height: 33px;
+  border: 1px solid #cccfd4;
+  box-sizing: border-box;
+  border-radius: 30px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 13px;
+}
+
+.status__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.dot__green {
+  background-color: #27ae60;
+  color: #27ae60;
+}
+.dot__grey {
+  background-color: #c4c4c4;
+  color: #c4c4c4;
+}
+.dot__yellow {
+  background-color: #ebc315;
+  color: #ebc315;
+}
+
+.status__label {
+  background: none;
+}

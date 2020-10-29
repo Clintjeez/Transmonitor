@@ -1,0 +1,65 @@
+.table__title {
+  font-size: 36px;
+  line-height: 48px;
+  color: #262626;
+}
+
+.table__controls {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.table__sort {
+  display: flex;
+}
+
+.table__sort__label1 {
+  font-size: 13px;
+  line-height: 17px;
+  color: #262626;
+  margin-right: 20px;
+}
+.table__sort__label2 {
+  margin-left: 20px;
+  color: #262626;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.table__sort_select {
+  border: none;
+  font-size: 14px;
+  color: #1875f0;
+  background-color: #f7f8fa;
+  height: 20px;
+}
+
+.table__search {
+  width: 400px !important;
+  color: #787878;
+}
+
+.table__search__icon {
+  color: #787878;
+}
+
+.table__group {
+  display: flex;
+}
+
+.table__group__title {
+  color: #000;
+  margin: 10px 15px;
+}
+
+.table__group__select {
+  width: 150px;
+  height: 35px;
+  border: 1px solid #ced0da;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background: #e5e5e5;
+  color: #414042;
+}

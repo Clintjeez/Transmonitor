@@ -1,0 +1,88 @@
+const PAYMENT_DATA = [
+  {
+    name: 'Apple Mac Book 15" 250 SSD 12GB',
+    price: "$73430",
+    transactionNumber: "1234567",
+    time: "12:13",
+    status: "Reconciled",
+  },
+  {
+    name: 'Apple Mac Book 15" 250 SSD 12GB',
+    price: "$73430",
+    transactionNumber: "1234567",
+    time: "12:13",
+    status: "Pending",
+  },
+  {
+    name: 'Apple Mac Book 15" 250 SSD 12GB',
+    price: "$73430",
+    transactionNumber: "1234567",
+    time: "12:13",
+    status: "Reconciled",
+  },
+  {
+    name: 'Apple Mac Book 15" 250 SSD 12GB',
+    price: "$73430",
+    transactionNumber: "1234567",
+    time: "12:13",
+    status: "Reconciled",
+  },
+  {
+    name: 'Apple Mac Book 15" 250 SSD 12GB',
+    price: "$73430",
+    transactionNumber: "1234567",
+    time: "12:13",
+    status: "Pending",
+  },
+  {
+    name: 'Apple Mac Book 15" 250 SSD 12GB',
+    price: "$73430",
+    transactionNumber: "1234567",
+    time: "12:13",
+    status: "Reconciled",
+  },
+  {
+    name: 'Apple Mac Book 15" 250 SSD 12GB',
+    price: "$73430",
+    transactionNumber: "1234567",
+    time: "12:13",
+    status: "Un-reconciled",
+  },
+  {
+    name: 'Apple Mac Book 15" 250 SSD 12GB',
+    price: "$73430",
+    transactionNumber: "1234567",
+    time: "12:13",
+    status: "Reconciled",
+  },
+  {
+    name: 'Apple Mac Book 15" 250 SSD 12GB',
+    price: "$73430",
+    transactionNumber: "1234567",
+    time: "12:13",
+    status: "Pending",
+  },
+  {
+    name: 'Apple Mac Book 15" 250 SSD 12GB',
+    price: "$73430",
+    transactionNumber: "1234567",
+    time: "12:13",
+    status: "Reconciled",
+  },
+  {
+    name: 'Apple Mac Book 15" 250 SSD 12GB',
+    price: "$73430",
+    transactionNumber: "1234567",
+    time: "12:13",
+    status: "Un-reconciled",
+  },
+  {
+    name: 'Apple Mac Book 15" 250 SSD 12GB',
+    price: "$73430",
+    transactionNumber: "1234567",
+    time: "12:13",
+    status: "Pending",
+  },
+];
+
+export default PAYMENT_DATA;
