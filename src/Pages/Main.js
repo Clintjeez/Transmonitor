@@ -9,10 +9,10 @@ function Main() {
   return (
     <div className="main">
       <div className="main__stats">
-        <InfoCard />
-        <InfoCard />
-        <InfoCard />
-        <InfoCard />
+        <InfoCard title="Daily Transaction Volume" data="2,342" />
+        <InfoCard title="Daily Transaction Value" data="₦4,000,000" />
+        <InfoCard title="Daily Transaction Volume" data="452,000" />
+        <InfoCard title="Daily Transaction Value" data="₦4,000,000" />
       </div>
       {/* <DataGraph />
   <Table /> */}

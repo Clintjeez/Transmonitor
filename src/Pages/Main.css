@@ -14,3 +14,13 @@
   justify-content: space-between;
   align-items: center;
 }
+
+/* Mobile Responsivity */
+@media (max-width: 800px) {
+  .main {
+    padding: 40px 15px;
+  }
+  .main__stats {
+    flex-direction: column;
+  }
+}
