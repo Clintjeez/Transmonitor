@@ -42,6 +42,7 @@ function Header() {
         aria-label="open drawer"
         onClick={handleDrawer}
         edge="start"
+        className="drawer__btn"
       >
         <MenuIcon />
       </IconButton>
@@ -104,7 +105,7 @@ function Header() {
               <li className="menu__items">
                 <Badge
                   // className="header__nav__item"
-                  badgeContent={4}
+                  badgeContent={8}
                   color="primary"
                 >
                   <NotificationsNoneIcon />
@@ -113,7 +114,7 @@ function Header() {
               <li className="menu__items user__item">
                 <span>
                   <p className="header__user__greet">Hello</p>
-                  <p className="header__user__username">Clinton James</p>
+                  <p className="header__user__username">Oluwaleke Ojo</p>
                 </span>
                 <img className="user__img" src={UserImage} alt="profile" />
               </li>
@@ -134,7 +135,7 @@ function Header() {
       <div className="header__user">
         <span>
           <p className="header__user__greet">Hello</p>
-          <p className="header__user__username">Clinton James</p>
+          <p className="header__user__username">Oluwaleke Ojo</p>
         </span>
         <img className="user__img" src={UserImage} alt="profile" />
       </div>
